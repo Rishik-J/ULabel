@@ -1,0 +1,696 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		BAFCAEF128FAEDC9000F882C /* Tests_iOS.swift in Sources */ = {isa = PBXBuildFile; fileRef = BAFCAEF028FAEDC9000F882C /* Tests_iOS.swift */; };
+		BAFCAEF328FAEDC9000F882C /* Tests_iOSLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BAFCAEF228FAEDC9000F882C /* Tests_iOSLaunchTests.swift */; };
+		BAFCAEFD28FAEDC9000F882C /* Tests_macOS.swift in Sources */ = {isa = PBXBuildFile; fileRef = BAFCAEFC28FAEDC9000F882C /* Tests_macOS.swift */; };
+		BAFCAEFF28FAEDC9000F882C /* Tests_macOSLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BAFCAEFE28FAEDC9000F882C /* Tests_macOSLaunchTests.swift */; };
+		BAFCAF0028FAEDC9000F882C /* ULabelApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = BAFCAED828FAEDC8000F882C /* ULabelApp.swift */; };
+		BAFCAF0128FAEDC9000F882C /* ULabelApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = BAFCAED828FAEDC8000F882C /* ULabelApp.swift */; };
+		BAFCAF0228FAEDC9000F882C /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BAFCAED928FAEDC8000F882C /* ContentView.swift */; };
+		BAFCAF0328FAEDC9000F882C /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BAFCAED928FAEDC8000F882C /* ContentView.swift */; };
+		BAFCAF0428FAEDC9000F882C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BAFCAEDA28FAEDC9000F882C /* Assets.xcassets */; };
+		BAFCAF0528FAEDC9000F882C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BAFCAEDA28FAEDC9000F882C /* Assets.xcassets */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		BAFCAEED28FAEDC9000F882C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BAFCAED328FAEDC8000F882C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BAFCAEDE28FAEDC9000F882C;
+			remoteInfo = "ULabel (iOS)";
+		};
+		BAFCAEF928FAEDC9000F882C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BAFCAED328FAEDC8000F882C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BAFCAEE428FAEDC9000F882C;
+			remoteInfo = "ULabel (macOS)";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		BAFCAED828FAEDC8000F882C /* ULabelApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ULabelApp.swift; sourceTree = "<group>"; };
+		BAFCAED928FAEDC8000F882C /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		BAFCAEDA28FAEDC9000F882C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		BAFCAEDF28FAEDC9000F882C /* ULabel.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ULabel.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		BAFCAEE528FAEDC9000F882C /* ULabel.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ULabel.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		BAFCAEE728FAEDC9000F882C /* macOS.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = macOS.entitlements; sourceTree = "<group>"; };
+		BAFCAEEC28FAEDC9000F882C /* Tests iOS.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Tests iOS.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		BAFCAEF028FAEDC9000F882C /* Tests_iOS.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests_iOS.swift; sourceTree = "<group>"; };
+		BAFCAEF228FAEDC9000F882C /* Tests_iOSLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests_iOSLaunchTests.swift; sourceTree = "<group>"; };
+		BAFCAEF828FAEDC9000F882C /* Tests macOS.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Tests macOS.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		BAFCAEFC28FAEDC9000F882C /* Tests_macOS.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests_macOS.swift; sourceTree = "<group>"; };
+		BAFCAEFE28FAEDC9000F882C /* Tests_macOSLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests_macOSLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		BAFCAEDC28FAEDC9000F882C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BAFCAEE228FAEDC9000F882C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BAFCAEE928FAEDC9000F882C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BAFCAEF528FAEDC9000F882C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		BAFCAED228FAEDC8000F882C = {
+			isa = PBXGroup;
+			children = (
+				BAFCAED728FAEDC8000F882C /* Shared */,
+				BAFCAEE628FAEDC9000F882C /* macOS */,
+				BAFCAEEF28FAEDC9000F882C /* Tests iOS */,
+				BAFCAEFB28FAEDC9000F882C /* Tests macOS */,
+				BAFCAEE028FAEDC9000F882C /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		BAFCAED728FAEDC8000F882C /* Shared */ = {
+			isa = PBXGroup;
+			children = (
+				BAFCAED828FAEDC8000F882C /* ULabelApp.swift */,
+				BAFCAED928FAEDC8000F882C /* ContentView.swift */,
+				BAFCAEDA28FAEDC9000F882C /* Assets.xcassets */,
+			);
+			path = Shared;
+			sourceTree = "<group>";
+		};
+		BAFCAEE028FAEDC9000F882C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				BAFCAEDF28FAEDC9000F882C /* ULabel.app */,
+				BAFCAEE528FAEDC9000F882C /* ULabel.app */,
+				BAFCAEEC28FAEDC9000F882C /* Tests iOS.xctest */,
+				BAFCAEF828FAEDC9000F882C /* Tests macOS.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		BAFCAEE628FAEDC9000F882C /* macOS */ = {
+			isa = PBXGroup;
+			children = (
+				BAFCAEE728FAEDC9000F882C /* macOS.entitlements */,
+			);
+			path = macOS;
+			sourceTree = "<group>";
+		};
+		BAFCAEEF28FAEDC9000F882C /* Tests iOS */ = {
+			isa = PBXGroup;
+			children = (
+				BAFCAEF028FAEDC9000F882C /* Tests_iOS.swift */,
+				BAFCAEF228FAEDC9000F882C /* Tests_iOSLaunchTests.swift */,
+			);
+			path = "Tests iOS";
+			sourceTree = "<group>";
+		};
+		BAFCAEFB28FAEDC9000F882C /* Tests macOS */ = {
+			isa = PBXGroup;
+			children = (
+				BAFCAEFC28FAEDC9000F882C /* Tests_macOS.swift */,
+				BAFCAEFE28FAEDC9000F882C /* Tests_macOSLaunchTests.swift */,
+			);
+			path = "Tests macOS";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		BAFCAEDE28FAEDC9000F882C /* ULabel (iOS) */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BAFCAF0828FAEDC9000F882C /* Build configuration list for PBXNativeTarget "ULabel (iOS)" */;
+			buildPhases = (
+				BAFCAEDB28FAEDC9000F882C /* Sources */,
+				BAFCAEDC28FAEDC9000F882C /* Frameworks */,
+				BAFCAEDD28FAEDC9000F882C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "ULabel (iOS)";
+			productName = "ULabel (iOS)";
+			productReference = BAFCAEDF28FAEDC9000F882C /* ULabel.app */;
+			productType = "com.apple.product-type.application";
+		};
+		BAFCAEE428FAEDC9000F882C /* ULabel (macOS) */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BAFCAF0B28FAEDC9000F882C /* Build configuration list for PBXNativeTarget "ULabel (macOS)" */;
+			buildPhases = (
+				BAFCAEE128FAEDC9000F882C /* Sources */,
+				BAFCAEE228FAEDC9000F882C /* Frameworks */,
+				BAFCAEE328FAEDC9000F882C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "ULabel (macOS)";
+			productName = "ULabel (macOS)";
+			productReference = BAFCAEE528FAEDC9000F882C /* ULabel.app */;
+			productType = "com.apple.product-type.application";
+		};
+		BAFCAEEB28FAEDC9000F882C /* Tests iOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BAFCAF0E28FAEDC9000F882C /* Build configuration list for PBXNativeTarget "Tests iOS" */;
+			buildPhases = (
+				BAFCAEE828FAEDC9000F882C /* Sources */,
+				BAFCAEE928FAEDC9000F882C /* Frameworks */,
+				BAFCAEEA28FAEDC9000F882C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				BAFCAEEE28FAEDC9000F882C /* PBXTargetDependency */,
+			);
+			name = "Tests iOS";
+			productName = "Tests iOS";
+			productReference = BAFCAEEC28FAEDC9000F882C /* Tests iOS.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+		BAFCAEF728FAEDC9000F882C /* Tests macOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BAFCAF1128FAEDC9000F882C /* Build configuration list for PBXNativeTarget "Tests macOS" */;
+			buildPhases = (
+				BAFCAEF428FAEDC9000F882C /* Sources */,
+				BAFCAEF528FAEDC9000F882C /* Frameworks */,
+				BAFCAEF628FAEDC9000F882C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				BAFCAEFA28FAEDC9000F882C /* PBXTargetDependency */,
+			);
+			name = "Tests macOS";
+			productName = "Tests macOS";
+			productReference = BAFCAEF828FAEDC9000F882C /* Tests macOS.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BAFCAED328FAEDC8000F882C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1330;
+				LastUpgradeCheck = 1330;
+				TargetAttributes = {
+					BAFCAEDE28FAEDC9000F882C = {
+						CreatedOnToolsVersion = 13.3.1;
+					};
+					BAFCAEE428FAEDC9000F882C = {
+						CreatedOnToolsVersion = 13.3.1;
+					};
+					BAFCAEEB28FAEDC9000F882C = {
+						CreatedOnToolsVersion = 13.3.1;
+						TestTargetID = BAFCAEDE28FAEDC9000F882C;
+					};
+					BAFCAEF728FAEDC9000F882C = {
+						CreatedOnToolsVersion = 13.3.1;
+						TestTargetID = BAFCAEE428FAEDC9000F882C;
+					};
+				};
+			};
+			buildConfigurationList = BAFCAED628FAEDC8000F882C /* Build configuration list for PBXProject "ULabel" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = BAFCAED228FAEDC8000F882C;
+			productRefGroup = BAFCAEE028FAEDC9000F882C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				BAFCAEDE28FAEDC9000F882C /* ULabel (iOS) */,
+				BAFCAEE428FAEDC9000F882C /* ULabel (macOS) */,
+				BAFCAEEB28FAEDC9000F882C /* Tests iOS */,
+				BAFCAEF728FAEDC9000F882C /* Tests macOS */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		BAFCAEDD28FAEDC9000F882C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BAFCAF0428FAEDC9000F882C /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BAFCAEE328FAEDC9000F882C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BAFCAF0528FAEDC9000F882C /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BAFCAEEA28FAEDC9000F882C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BAFCAEF628FAEDC9000F882C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		BAFCAEDB28FAEDC9000F882C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BAFCAF0228FAEDC9000F882C /* ContentView.swift in Sources */,
+				BAFCAF0028FAEDC9000F882C /* ULabelApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BAFCAEE128FAEDC9000F882C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BAFCAF0328FAEDC9000F882C /* ContentView.swift in Sources */,
+				BAFCAF0128FAEDC9000F882C /* ULabelApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BAFCAEE828FAEDC9000F882C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BAFCAEF328FAEDC9000F882C /* Tests_iOSLaunchTests.swift in Sources */,
+				BAFCAEF128FAEDC9000F882C /* Tests_iOS.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BAFCAEF428FAEDC9000F882C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BAFCAEFF28FAEDC9000F882C /* Tests_macOSLaunchTests.swift in Sources */,
+				BAFCAEFD28FAEDC9000F882C /* Tests_macOS.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		BAFCAEEE28FAEDC9000F882C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = BAFCAEDE28FAEDC9000F882C /* ULabel (iOS) */;
+			targetProxy = BAFCAEED28FAEDC9000F882C /* PBXContainerItemProxy */;
+		};
+		BAFCAEFA28FAEDC9000F882C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = BAFCAEE428FAEDC9000F882C /* ULabel (macOS) */;
+			targetProxy = BAFCAEF928FAEDC9000F882C /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		BAFCAF0628FAEDC9000F882C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		BAFCAF0728FAEDC9000F882C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+			};
+			name = Release;
+		};
+		BAFCAF0928FAEDC9000F882C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = HackHarvard.ULabel;
+				PRODUCT_NAME = ULabel;
+				SDKROOT = iphoneos;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		BAFCAF0A28FAEDC9000F882C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = HackHarvard.ULabel;
+				PRODUCT_NAME = ULabel;
+				SDKROOT = iphoneos;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		BAFCAF0C28FAEDC9000F882C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = macOS/macOS.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 12.3;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = HackHarvard.ULabel;
+				PRODUCT_NAME = ULabel;
+				SDKROOT = macosx;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		BAFCAF0D28FAEDC9000F882C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = macOS/macOS.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 12.3;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = HackHarvard.ULabel;
+				PRODUCT_NAME = ULabel;
+				SDKROOT = macosx;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		BAFCAF0F28FAEDC9000F882C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "HackHarvard.Tests-iOS";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "ULabel (iOS)";
+			};
+			name = Debug;
+		};
+		BAFCAF1028FAEDC9000F882C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "HackHarvard.Tests-iOS";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "ULabel (iOS)";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		BAFCAF1228FAEDC9000F882C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 12.3;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "HackHarvard.Tests-macOS";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = "ULabel (macOS)";
+			};
+			name = Debug;
+		};
+		BAFCAF1328FAEDC9000F882C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 12.3;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "HackHarvard.Tests-macOS";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = "ULabel (macOS)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		BAFCAED628FAEDC8000F882C /* Build configuration list for PBXProject "ULabel" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BAFCAF0628FAEDC9000F882C /* Debug */,
+				BAFCAF0728FAEDC9000F882C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BAFCAF0828FAEDC9000F882C /* Build configuration list for PBXNativeTarget "ULabel (iOS)" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BAFCAF0928FAEDC9000F882C /* Debug */,
+				BAFCAF0A28FAEDC9000F882C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BAFCAF0B28FAEDC9000F882C /* Build configuration list for PBXNativeTarget "ULabel (macOS)" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BAFCAF0C28FAEDC9000F882C /* Debug */,
+				BAFCAF0D28FAEDC9000F882C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BAFCAF0E28FAEDC9000F882C /* Build configuration list for PBXNativeTarget "Tests iOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BAFCAF0F28FAEDC9000F882C /* Debug */,
+				BAFCAF1028FAEDC9000F882C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BAFCAF1128FAEDC9000F882C /* Build configuration list for PBXNativeTarget "Tests macOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BAFCAF1228FAEDC9000F882C /* Debug */,
+				BAFCAF1328FAEDC9000F882C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BAFCAED328FAEDC8000F882C /* Project object */;
+}
