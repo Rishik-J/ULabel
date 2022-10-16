@@ -7,9 +7,63 @@
 
 import SwiftUI
 
-struct ContentView: View {
+struct ContentView: View { 
+    
     var body: some View {
-        TypeBox()
+        NavigationView {
+            VStack {
+                
+                Spacer()
+                
+                Image("logo")
+                    .resizable()
+                    .frame(width: 300, height: 300)
+                
+                Spacer()
+                HStack {
+                    NavigationLink(destination: SecondView()) {
+                        Login(str : "Login")
+                        
+                        
+                    }
+                    NavigationLink(destination: SecondView()) {
+                        Login(str: "Register")
+                        
+                    }
+
+                    
+                }
+            }
+            
+        }
+    }
+}
+struct SecondView: View {
+    var body : some View {
+        
+        VStack {
+            Text("Login/Register")
+            TypeBox()
+                
+            NavigationLink(destination: ThirdView()) {
+                Login(str: "Go")            }
+            }
+        
+    }
+}
+
+struct ThirdView : View {
+    var body : some View {
+        ScrollView {
+            VStack {
+                Spacer()
+                Image("logo")
+                    .resizable()
+                    .frame(width: 300, height: 300)
+                Spacer()
+                
+            }
+        }
     }
 }
 

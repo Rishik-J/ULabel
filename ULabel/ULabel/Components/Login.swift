@@ -9,8 +9,9 @@ import Foundation
 import SwiftUI
 
 struct Login : View {
+    var str : String
     var body : some View {
-        Button("Sign In", action: {})
+        Button(str, action: {})
             .frame(height: 52)
             .frame(maxWidth: .infinity)
             .padding(.horizontal)
@@ -25,6 +26,6 @@ struct Login : View {
 }
 struct Login_ : PreviewProvider {
     static var previews: some View {
-        Login()
+        Login(str: "Login")
     }
 }
