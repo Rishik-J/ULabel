@@ -22,5 +22,5 @@ One of the biggest challenges we faced was generating the data set using Spotify
 ## 🧠 What we learned
 We also learned a lot about how music is classified and variables that come from it such as danceability, acousticness, and energy. Additionationally, we learned how these variables affected the popularity of the songs. We learned all about Swift development fundamentals and implementing systems design within IOS applications. 
 
-##👷‍♂️ What's next for Under Construction
+## 👷‍♂️ What's next for Under Construction
 Our next step is making the IOS app fully functional. This entails adding a collaboration feature where artists can find other producers and artists in their vicinity, a simplified streamlined way to promote their music across multiple social media platforms, and connecting artists with venues & shoes that match their target audience. 
