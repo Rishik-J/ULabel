@@ -1,5 +1,5 @@
 # ULabel: A ML based Music Record Label 
-*A HackHarvard 2022 Project*
+*A HackHarvard 2022 Project* by Tamara Bueno, Ujjwal Singh, Luke Geel, Rishik Janashwamy
 
 ## 💡Inspiration
 ‘Despacito’, ‘Gangnam Style’, ‘Shape of you’, ring a bell? Yup, these are a few of the most iconic music of our century (According to Gen Z). What better way to help the upcoming generation of music artists than creating an algorithm to predict the percentage of success your music can reach! We want to give back to our community of artists by helping them achieve their dreams. 
