@@ -15,12 +15,11 @@ struct TopHitsView : View {
         HStack{
             Spacer(minLength: 1)
             Image("Play")
-            .frame(width: 73.00, height: 52.00)
+                .frame(width: 290, height: 52.00, alignment: .trailing)
             .background(RoundedRectangle(cornerRadius: 20)
                 .fill(Color(red: 0.96, green: 0.96, blue: 0.96))
-                .frame(width: 324.00, height: 47.00).overlay(Text(str).bold().frame(maxWidth: .infinity, alignment: .leading)))
-            Spacer(minLength:2)
-            
+                .frame(width: 324.00, height: 47.00).overlay(Text("  "+str).bold().frame(maxWidth: .infinity, alignment: .leading)))
+            Spacer()
                 
             
         }

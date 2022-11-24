@@ -8,16 +8,24 @@
 import Foundation
 import SwiftUI
 
-struct BottomNav : View {
-    
+struct BottomNav : View{
     var body: some View{
-        TabView {
-            
+        TabView{
+
+           GigFinderView()
+                .tabItem{
+                    
+                    Image("Play")
+                }
         }
+        ThirdView()
+            .tabItem {
+                Image("logo")
+            }
     }
 }
-struct BottomNav_ : PreviewProvider {
-    static var previews: some View {
+struct BottomNav_ : PreviewProvider{
+    static var previews: some View{
         BottomNav()
     }
 }

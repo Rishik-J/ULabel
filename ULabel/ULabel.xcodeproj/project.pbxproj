@@ -11,6 +11,7 @@
 		1936C87F28FB691100B91793 /* TypeBox.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1936C87E28FB691100B91793 /* TypeBox.swift */; };
 		1945CE3A28FB7F0E008E5DC8 /* Login.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1945CE3928FB7F0E008E5DC8 /* Login.swift */; };
 		19CBFE11292F6AEF0086C0C4 /* TopHits.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19CBFE10292F6AEF0086C0C4 /* TopHits.swift */; };
+		19CBFE17292F8D600086C0C4 /* BottomNav.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19CBFE16292F8D600086C0C4 /* BottomNav.swift */; };
 		BAFCAEF128FAEDC9000F882C /* Tests_iOS.swift in Sources */ = {isa = PBXBuildFile; fileRef = BAFCAEF028FAEDC9000F882C /* Tests_iOS.swift */; };
 		BAFCAEF328FAEDC9000F882C /* Tests_iOSLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BAFCAEF228FAEDC9000F882C /* Tests_iOSLaunchTests.swift */; };
 		BAFCAEFD28FAEDC9000F882C /* Tests_macOS.swift in Sources */ = {isa = PBXBuildFile; fileRef = BAFCAEFC28FAEDC9000F882C /* Tests_macOS.swift */; };
@@ -45,6 +46,7 @@
 		1936C87E28FB691100B91793 /* TypeBox.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TypeBox.swift; sourceTree = "<group>"; };
 		1945CE3928FB7F0E008E5DC8 /* Login.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Login.swift; sourceTree = "<group>"; };
 		19CBFE10292F6AEF0086C0C4 /* TopHits.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TopHits.swift; sourceTree = "<group>"; };
+		19CBFE16292F8D600086C0C4 /* BottomNav.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BottomNav.swift; sourceTree = "<group>"; };
 		BAFCAED828FAEDC8000F882C /* ULabelApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ULabelApp.swift; sourceTree = "<group>"; };
 		BAFCAED928FAEDC8000F882C /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		BAFCAEDA28FAEDC9000F882C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -98,6 +100,7 @@
 				1945CE3928FB7F0E008E5DC8 /* Login.swift */,
 				191B114B28FB84E700816174 /* AlbumCover.swift */,
 				19CBFE10292F6AEF0086C0C4 /* TopHits.swift */,
+				19CBFE16292F8D600086C0C4 /* BottomNav.swift */,
 			);
 			path = Components;
 			sourceTree = "<group>";
@@ -324,6 +327,7 @@
 				191B114C28FB84E800816174 /* AlbumCover.swift in Sources */,
 				19CBFE11292F6AEF0086C0C4 /* TopHits.swift in Sources */,
 				1936C87F28FB691100B91793 /* TypeBox.swift in Sources */,
+				19CBFE17292F8D600086C0C4 /* BottomNav.swift in Sources */,
 				1945CE3A28FB7F0E008E5DC8 /* Login.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
