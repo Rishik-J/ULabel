@@ -1,3 +1,5 @@
+<img src="Screenshots/iPhoneMockup.png" alt="drawing" width="700"/>
+
 # ULabel: A ML based Music Record Label 
 *[A HackHarvard 2022 Project](https://devpost.com/software/under-construction-a49qo7?ref_content=my-projects-tab&ref_feature=my_projects)* by Tamara Bueno, Ujjwal Singh, Luke Geel, Rishik Janashwamy
 
