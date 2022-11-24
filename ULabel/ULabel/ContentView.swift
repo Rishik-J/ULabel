@@ -6,6 +6,8 @@
 //
 
 import SwiftUI
+import CoreLocation
+import MapKit
 
 struct ContentView: View { 
     
@@ -192,6 +194,7 @@ struct FourthView : View {
 }
 
 struct GigFinderView : View{
+    @State private var region = MKCoordinateRegion(center: CLLocationCoordinate2D(latitude: 51.507222, longitude: -0.1275), span: MKCoordinateSpan(latitudeDelta: 0.5, longitudeDelta: 0.5))
      var body: some View{
          VStack{
              HStack{
@@ -253,7 +256,9 @@ struct GigFinderView : View{
              }
              Spacer()
                  .frame(width: 10, height: 30)
-             Image("map").border(.black).frame(width: 500, height: 410)
+             //Image("map").border(.black).frame(width: 500, height: 410)
+             Map(coordinateRegion: $region)
+                        .frame(width: 400, height: 300)
              
 
              
