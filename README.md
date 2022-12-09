@@ -27,3 +27,6 @@ We also learned a lot about how music is classified and variables that come from
 
 ## 👷‍♂️ What's next for UILabel
 Our next step is making the IOS app fully functional. This entails adding a collaboration feature where artists can find other producers and artists in their vicinity, a simplified streamlined way to promote their music across multiple social media platforms, and connecting artists with venues & shows that match their target audience. 
+
+
+<img src="Project highlights.png" alt="drawing" width="700"/>
